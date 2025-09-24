@@ -2,9 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-image: url('./images/oak-wood-planks-.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #logo{
     img{
@@ -86,4 +86,5 @@ section{
         width: 100%;
         margin:2em 0 0 0;
     }
+
 }
