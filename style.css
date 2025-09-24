@@ -16,11 +16,6 @@ body{
     gap: 20px;
     align-items: center;
     background-color: white;
-    #title{
-       
-        
-        
-    }
     text-shadow: 1px 1px 2px black;
     box-shadow: 1px 1px 2px black;
     margin: 1em;
@@ -37,10 +32,10 @@ header{
     button:hover{
         background-color: pink;
         color: black;
+        transition: background-color 1s ease;
     }
     width: 100%;
     display: flex;
-    justify-content: space-around;
     margin: 1% 0 0 0;
     background-image: linear-gradient(to right, purple, pink);
     box-shadow: 2px 2px 2px black;
@@ -63,4 +58,32 @@ section{
 }
 #book{
     width: 50em;
+}
+
+@media (max-width: 768px) {
+    #logo{
+        font-size: 10px;
+        img{
+            width: 2.5em;
+            height: 2.5em;
+        }
+    }
+    header{
+        width: 100%;
+
+        button{
+            padding: 5px;
+            font-size: 10px;
+        }
+    }
+    #book{
+        width: 15em;
+    }
+    section{
+        font-size: 1em;
+    }
+    .container{
+        width: 100%;
+        margin:2em 0 0 0;
+    }
 }
