@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/oak-wood-planks-.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+#logo{
+    img{
+        width: 5em;
+        height: 5em;
+        padding: 15px 15px 15px 20px;
+    }
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 1px 1px 2px black;
+    margin: 1em;
+}
+header{
+    button{
+        background: none;
+        border: none;
+        color: white;
+        font-size: 2em;
+        padding: 20px;
+        width: 25%;
+    }
+    button:hover{
+        background-color: pink;
+        color: black;
+        transition: background-color 1s ease;
+    }
+    width: 100%;
+    display: flex;
+    margin: 1% 0 0 0;
+    background-image: linear-gradient(to right, purple, pink);
+    box-shadow: 2px 2px 2px black;
+}
+
+section{
+    background-color: rgba(255, 89, 117, 0.548);
+    padding: 20px;
+    margin: 10% 25% ;
+    font-size: 2em;
+    text-align: center;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    #logo{
+        font-size: 10px;
+        img{
+            width: 2.5em;
+            height: 2.5em;
+        }
+    }
+    header{
+        width: 100%;
+
+        button{
+            padding: 5px;
+            font-size: 10px;
+        }
+    }
+    
+    section{
+        margin: 5% 12.5%;
+        font-size: 50%;
+    }
+
+}
